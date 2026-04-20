@@ -13,7 +13,7 @@ import {
 } from "recharts";
 import "./App.css";
 
-const API = "http://localhost:8080/api";
+const API = "https://study-planner-backend-pgcf.onrender.com/api";
 
 export default function App() {
   const [subjects, setSubjects] = useState([]);
