@@ -1,16 +1,27 @@
-# React + Vite
+# AI Smart Study Planner
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack web application that helps students manage subjects, track progress, prioritize tasks, and view analytics.
 
-Currently, two official plugins are available:
+## Tech Stack
+- React.js
+- Axios
+- Recharts
+- Spring Boot
+- PostgreSQL
+- Render
+- Vercel
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
+- Add / Update / Delete subjects
+- Mark subjects as completed
+- Priority subject tracking
+- Search and filter
+- Dashboard analytics charts
+- Responsive UI
 
-## React Compiler
+## Live Demo
+Frontend: https://study-planner-frontend-eta.vercel.app  
+Backend: https://study-planner-backend-pgcf.onrender.com/api/subjects
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Author
+Syed Nowrose
